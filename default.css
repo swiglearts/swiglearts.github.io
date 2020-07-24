@@ -9,7 +9,18 @@ body {
     padding: 30px;
 }
 section {
-    margin: 10px 0;
+    margin: 20px 0;
+}
+section .image {
+    padding: 50px;text-align: center;
+    border: 1px solid #eee;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: small;
+    margin-top: 20px;;
 }
 h1 {
     font-size: 2rem;
