@@ -1,0 +1,72 @@
+title: Swigle arts
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+description: ''
+header:
+  title: Swigle
+  has_nav: true
+  nav_links:
+    - label: Services
+      url: /services
+      style: link
+    - label: Blog
+      url: /blog
+      style: link
+    - label: About
+      url: /about
+      style: link
+    - label: Contact Us
+      url: /contact
+      style: primary
+  logo: swigle-logo.svg
+footer:
+  has_nav: true
+  nav_links:
+    - label: Contact Us
+      url: /contact
+      style: link
+    - label: Privacy and Terms
+      url: /terms
+      style: link
+  has_social: true
+  social_links:
+    - label: Twitter
+      url: 'https://twitter.com/'
+      style: link
+      new_window: true
+    - label: GitHub
+      url: 'https://github.com/'
+      style: link
+      new_window: true
+    - label: LinkedIn
+      url: 'https://www.linkedin.com/'
+      style: link
+      new_window: true
+  content: ''
+  links:
+    - label: Made with Stackbit.
+      url: 'https://www.stackbit.com'
+      style: link
+      new_window: true
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
