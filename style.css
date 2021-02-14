@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans",
+    "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
+    "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  transform: translatey(-1rem);
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  padding: 1rem;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+body {
+}
+h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+p {
+  font-size: 1.1rem;
+}
+
+section {
+  width: 620px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  &.brand {
+    input {
+      width: 50%;
+    }
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  &.message {
+    h3 {
+      margin: 0;
+    }
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+.swigle-logo {
+  // outline: 1px dashed lightgreen;
+  &.sml {
+    width: 100px;
+    height: 30px;
+  }
+}
+// .swigle-mark {
+//   stroke-dashoffset: (random(100));
+// }
