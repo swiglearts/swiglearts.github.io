@@ -23,3 +23,16 @@
         <div class="footer">Copyright &copy; 2021 Swigle LLC. Seattle WA</div>
     </body>
 </html>
+
+<script>
+const style = document.documentElement.style;
+var range1 = {
+  translate: document.getElementById('swigle-path-control')
+};
+function valueChange(id, value) {
+  style.setProperty('--' + id, value);
+}
+range1.translate.addEventListener('input', function(e) { 
+  valueChange(e.currentTarget.id, e.currentTarget.value / 100 * 600);
+});
+</script>
