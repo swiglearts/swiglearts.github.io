@@ -52,7 +52,6 @@ section.brand input {
   width: 50%;
 }
 section.message {
-  text-align: center;
   flex-direction: column;
 }
 section.message h3 {
