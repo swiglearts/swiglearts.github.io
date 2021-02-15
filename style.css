@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
 }
@@ -48,7 +48,10 @@ section.brand {
   gap: 1rem;
 }
 section.brand input {
-  width: 50%;
+  width: 30%;
+}
+section.brand svg {
+    max-width: 300px;
 }
 section.message {
   flex-direction: column;
