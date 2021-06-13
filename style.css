@@ -37,7 +37,7 @@ p {
 }
 
 section {
-  width: 700px;
+  width: 480px;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
